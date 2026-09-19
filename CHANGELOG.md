@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.5.2] - 2026-09-19
+
+### Refactoring
+
+- (**deps**) Bump ringdrop to 0.19.3
+
 ## [0.5.1] - 2026-07-11
 
 ### Refactoring
