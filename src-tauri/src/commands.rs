@@ -380,7 +380,7 @@ pub async fn node_id(state: State<'_, AppState>) -> Result<String, String> {
     struct Rec {
         peer_id: String,
     }
-    let recs: Vec<Rec> = state.query(Op::NodeId).await?;
+    let recs: Vec<Rec> = state.query(Op::NodeId { qr_code: false }).await?;
     recs.into_iter()
         .next()
         .map(|r| r.peer_id)
