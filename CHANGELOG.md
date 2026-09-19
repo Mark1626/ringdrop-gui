@@ -2,17 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.5.2] - 2026-09-19
+## [0.6.0] - 2026-09-19
 
-### Refactoring
+### Features
 
-- (**deps**) Bump ringdrop to 0.19.3
+- Ringdrop 0.20 with dest dir "Clear" button (#8)
 
 ## [0.5.1] - 2026-07-11
 
-### Refactoring
+### Documentation
 
-- (**deps**) Bump ringdrop to 0.18.1
+- Add v0.5.1 to CHANGELOG
 
 ## [0.5.0] - 2026-06-16
 
